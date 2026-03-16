@@ -3,9 +3,9 @@ export const CATEGORIES = [
   'Jajan',
   'Transport',
   'Cicilan',
-  'Tabungan Pendidikan',
-  'Tabungan Pengeluaran Tahunan',
-  'Tabungan Belanja Tahunan',
+  'Pendidikan',
+  'Pengeluaran Tahunan',
+  'Belanja Tahunan',
   'Dana Darurat',
   'Sosial',
   'Qurban'
