@@ -1,18 +1,19 @@
 export const CATEGORIES = [
-  'Food',
+  'Operasional',
+  'Jajan',
   'Transport',
-  'Groceries',
-  'Utilities',
-  'Health',
-  'Entertainment',
-  'Shopping',
-  'Education',
-  'Other'
+  'Cicilan',
+  'Tabungan Pendidikan',
+  'Tabungan Pengeluaran Tahunan',
+  'Tabungan Belanja Tahunan',
+  'Dana Darurat',
+  'Sosial',
+  'Qurban'
 ] as const;
 
-export const METHODS = ['Cash', 'BCA Debit', 'QRIS'] as const;
+export const METHODS = ['Cash', 'BSI', 'JAGO Rahmah'] as const;
 
-export const SOURCES = ['Danny', 'Dewi', 'Together'] as const;
+export const SOURCES = ['Iyan', 'Rahmah', 'Together'] as const;
 
 export type Category = (typeof CATEGORIES)[number];
 export type Method = (typeof METHODS)[number];
